@@ -27,7 +27,7 @@ Lower ITC scores showed the fatigue and lack of concentration of subjects and hi
 ### extract_P300: It will execute the Preprocessing part.
 ### forward_modelVisual: Draw the topoplots
 ### ploterp: plot erp of the EEG data
-### regInv: Generate a regularized inverse within trial matrix usig Singular value decomposition method
+### regInv: Generate a regularized inverse within trial covariance matrix usig Singular value decomposition method
 ### topoplot: Draw the toplots
 ### ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
 
