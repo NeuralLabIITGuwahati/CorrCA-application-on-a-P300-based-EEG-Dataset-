@@ -6,7 +6,7 @@ Prerequisite
 2. Signal processing toolbox
 3. All the datasets must be in the same folders where all the .m files and channel location files exist.
 4. Use [1]'s proceesure to extract and filter the single trials of EEG data.
-5. Downlaod EEG data from http://bci.epfl.ch/p300 and codes.
+5. Downlaod EEG data from http://bci.epfl.ch/p300 and relevant codes.
 
 The code is illustrated with a P300 data set recorded during an OddBall paradigm [1].
 
@@ -21,6 +21,8 @@ Lower ITC scores showed the fatigue and lack of concentration of subjects and hi
 ## Channel location:
 ### coord: Channel location with 8 electrodes.
 ### coord1: Channel location with 16 electrodes.
+
+## .m files:
 ### est_K_shift: Statistical non-parametric test for finding the statistically significant CorrCA components.
 ### extract_P300: It will execute the Preprocessing part.
 ### forward_modelVisual: Draw the topoplots
@@ -30,7 +32,7 @@ Lower ITC scores showed the fatigue and lack of concentration of subjects and hi
 ### ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
 
 ## How to run the Code:
-Before run the code user must first extracts the single trials using [1] codes.
+Before runing the code user must first extracts the single trials using [1]'s shared codes.
 You will find the subjects data in the name started with S then subject's ID followed by sessions.
 
 It is very important to save the subject's data in the same folder.
@@ -45,9 +47,10 @@ Copy the line shown in the image and run in the command line. Here the first lin
 2. To extract the non-target trials, in the line number 68 put y == -1
 ![image](https://user-images.githubusercontent.com/86661890/156174011-bb65e721-b8c5-43b3-a7e6-26f940553f28.png).
 
-You can also uncomment the different parts to visulize the histogram of z score and  plot between trials after applying  covariance rejection  Vs before trial rejection method.
+You can also uncomment the different parts to visulize the histogram of z score values and  plot between trials after applying  covariance rejection  Vs trials before applying covariance rejection method.
 
-3. corrca_plot.m gives
+3. corrca_plot.m gives :
+4. 
 a. ITC values of CorrCA componts, components, projection matrix, forward model.
 b. It generates the plot of SNR, ERP, topoplots of each subjects.
 
