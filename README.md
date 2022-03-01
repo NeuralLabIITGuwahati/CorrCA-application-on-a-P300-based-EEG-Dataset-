@@ -51,8 +51,10 @@ You can also uncomment the different parts to visulize the histogram of z score 
 
 3. corrca_plot.m generates:
 
-#### a. ITC values of CorrCA componts, components, projection matrix, forward model.
-#### b. It generates the plot of SNR, ERP, topoplots of each subjects.
+#### a. ITC values of CorrCA components, CorrCA components, projection matrix, forward model.
+#### b. It generates the plot of SNR, ERP, topoplots of each subjects consistent with first and second CorrCA components.
+
+4. To generate only topoplots of each subject use forward_modelVisual.m file. To use this .m file at first you need to save the forward model of each subjets for target trials and non-target trials. If you used [1] data then you should have total 16 files 8 from target trials and 8 from non-target trials.
 
 ### If you use your own datasets then change the sample frequency, channel location file.
 
