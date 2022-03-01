@@ -54,11 +54,11 @@ b. It generates the plot of SNR, ERP, topoplots of each subjects.
 ### If you use your own datasets then change the sample frequency, channel location file.
 
 
-References:
+## References:
 
-[1] U. Hoffmann, J. M. Vesin, T. Ebrahimi, and K. Diserens, "An efficient P300-based brain-computer interface for disabled subjects," Journal of Neuroscience Methods, vol. 167, no. 1, pp. 115–125, 2008.
-[2] J. P. Dmochowski, P. Sajda, J. Dias, and L. C. Parra, "Correlated components of ongoing EEG point to emotionally laden attention - a possible marker of engagement?" Frontiers in Human Neuroscience, 2012.
-[3] L. C. Parra, S. Haufe, and J. P. Dmochowski, "Correlated components analysis-Extracting reliable dimensions in multivariate data," arXiv. 2018.
+### [1] U. Hoffmann, J. M. Vesin, T. Ebrahimi, and K. Diserens, "An efficient P300-based brain-computer interface for disabled subjects," Journal of Neuroscience Methods, vol. 167, no. 1, pp. 115–125, 2008.
+### [2] J. P. Dmochowski, P. Sajda, J. Dias, and L. C. Parra, "Correlated components of ongoing EEG point to emotionally laden attention - a possible marker of engagement?" Frontiers in Human Neuroscience, 2012.
+### [3] L. C. Parra, S. Haufe, and J. P. Dmochowski, "Correlated components analysis-Extracting reliable dimensions in multivariate data," arXiv. 2018.
 
 
 
