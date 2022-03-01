@@ -51,8 +51,8 @@ You can also uncomment the different parts to visulize the histogram of z score 
 
 3. corrca_plot.m generates:
 
-a. ITC values of CorrCA componts, components, projection matrix, forward model.
-b. It generates the plot of SNR, ERP, topoplots of each subjects.
+#### a. ITC values of CorrCA componts, components, projection matrix, forward model.
+#### b. It generates the plot of SNR, ERP, topoplots of each subjects.
 
 ### If you use your own datasets then change the sample frequency, channel location file.
 
