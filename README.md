@@ -19,15 +19,15 @@ The codes were used to find the reliable components embeeded inside a P300 EEG d
 Lower ITC scores showed the fatigue and lack of concentration of subjects and higher ITC scores showed subject was highly concentrated and motivated during EEG data recording. The result was confirmed based on the ITC scoes and already reported information about corresponding subjects behavior in [1]. 
 
 ## Channel location:
-coord: Channel location with 8 electrodes.
-coord1: Channel location with 16 electrodes.
-est_K_shift: Statistical non-parametric test for finding the statistically significant CorrCA components.
-extract_P300: It will execute the Preprocessing part.
-forward_modelVisual: Draw the topoplots
-ploterp: plot erp of the EEG data
-regInv: Generate a regularized inverse within trial matrix usig Singular value decomposition method
-topoplot: Draw the toplots
-ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
+### coord: Channel location with 8 electrodes.
+### coord1: Channel location with 16 electrodes.
+### est_K_shift: Statistical non-parametric test for finding the statistically significant CorrCA components.
+### extract_P300: It will execute the Preprocessing part.
+### forward_modelVisual: Draw the topoplots
+### ploterp: plot erp of the EEG data
+### regInv: Generate a regularized inverse within trial matrix usig Singular value decomposition method
+### topoplot: Draw the toplots
+### ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
 
 ## How to run the Code:
 Before run the code user must first extracts the single trials using [1] codes.
