@@ -49,8 +49,8 @@ Copy the line shown in the image and run in the command line. Here the first lin
 
 You can also uncomment the different parts to visulize the histogram of z score values and  plot between trials after applying  covariance rejection  Vs trials before applying covariance rejection method.
 
-3. corrca_plot.m gives :
-4. 
+3. corrca_plot.m generates:
+
 a. ITC values of CorrCA componts, components, projection matrix, forward model.
 b. It generates the plot of SNR, ERP, topoplots of each subjects.
 
