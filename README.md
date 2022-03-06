@@ -6,7 +6,7 @@ Prerequisite
 2. Signal processing toolbox
 3. All the datasets must be in the same folders where all the .m files and channel location files exist.
 4. Use [1]'s proceesure to extract and filter the single trials of EEG data.
-5. Downlaod EEG data from http://bci.epfl.ch/p300 and relevant codes.
+5. Downlaod EEG data from http://bci.epfl.ch/p300 and relevant codes. 
 
 The code is illustrated with a P300 data set recorded during an OddBall paradigm [1].
 
@@ -30,6 +30,8 @@ Lower ITC scores showed the fatigue and lack of concentration of subjects and hi
 ### regInv: Generate a regularized inverse within trial covariance matrix usig Singular value decomposition method
 ### topoplot: Draw the toplots
 ### ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
+### Utilities Folder contains preprocessing techniques such as windsorization, Normalization. 
+Utilities folder was created by Hoffman et al.,[1].
 
 ## How to run the Code:
 Before runing the code user must first extracts the single trials using [1]'s shared codes.
