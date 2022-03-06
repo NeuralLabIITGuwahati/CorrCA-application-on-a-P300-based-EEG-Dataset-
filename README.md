@@ -41,12 +41,12 @@ It is very important to save the subject's data in the same folder.
 1. Go to the extract_P300.m 
 set the path for utilities folder provided by [1].
 
-![image](https://user-images.githubusercontent.com/86661890/156172387-decbfe12-2bd2-49c5-9dd8-e4635801fd7b.png)
+
 
 Copy the line shown in the image and run in the command line. Here the first line shown is for subject 6 and second line is for subject 8.
 
 2. To extract the non-target trials, in the line number 68 put y == -1
-![image](https://user-images.githubusercontent.com/86661890/156174011-bb65e721-b8c5-43b3-a7e6-26f940553f28.png).
+
 
 You can also uncomment the different parts to visulize the histogram of z score values and  plot between trials after applying  covariance rejection  Vs trials before applying covariance rejection method.
 
