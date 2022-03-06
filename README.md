@@ -30,8 +30,7 @@ Lower ITC scores showed the fatigue and lack of concentration of subjects and hi
 ### regInv: Generate a regularized inverse within trial covariance matrix usig Singular value decomposition method
 ### topoplot: Draw the toplots
 ### ttest_ITC: perform t test between ITC values of target trial cohorts and non target trial cohorts.
-### Utilities Folder contains preprocessing techniques such as windsorization, Normalization. 
-Utilities folder was created by Hoffman et al.,[1].
+### Utilities Folder contains preprocessing techniques such as windsorization, Normalization. Utilities folder was created by Hoffman et al.,[1].
 
 ## How to run the Code:
 Before runing the code user must first extracts the single trials using [1]'s shared codes.
