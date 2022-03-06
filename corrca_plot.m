@@ -98,7 +98,7 @@ xlabel('CorrCA components'); ylabel('SNR*\surd N ');
 
 % Forward models
 n=5;
-A= mean(A,3);
+
 for i=1:2
     y=squeeze(Ytest(:,i,:));
     subplot(5,3,n); n=n+3;
