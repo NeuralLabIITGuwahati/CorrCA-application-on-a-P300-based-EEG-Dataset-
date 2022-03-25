@@ -12,6 +12,7 @@
 
 
 %% Preprocessing
+
 function preprocessedata = extract_P300(files)
 clf
 % Fz, Cz, Pz, Oz, P7, P3, P4, P8 
@@ -26,7 +27,6 @@ clf
 channels = [31 32 13 16 11 12 19 20];
 % All electrodes
 % channels =[1:32];
-
 % load training files and concatenate data and labels into two big arrays
 % Choose the path where you have utilites folder
 path(path,'D:\Kalpa\BCI_classification\utilities')
@@ -116,16 +116,14 @@ plot(covdistz,'ks-','linew',2,'markerfacecolor','w','markersize',12)
 xlabel('Trial'), ylabel('Z_{dist}')
 title('Z-scored covariance distances')
 
-
 % % histogram of distances
+
 % subplot(233)
 % histogram(covdistz,10)
 % xlabel('Distances'), ylabel('Count')
 % title('Histogram of distances')
 
-
 % pick a threshold and reject trials
-
 % threshold
 thresh = 2.3; % ~0.1
 
@@ -136,22 +134,16 @@ toofar_idx = find(toofar==1);
 preprocessedata = EEG.data;
 preprocessedata(:,:,toofar) = [];
 
-
-% show some data before and after rejection
-
 % plot time courses
 subplot(212), hold on
 plot(EEG.times,mean(EEG.data(3,:,:),3),'k','linew',2)
 plot(EEG.times,mean(preprocessedata(3,:,:),3),'r','linew',2)
-
-% make the plot look a bit nicer
 xlabel('Time (ms)'),ylabel('Amplitude')
 legend({'Original data';'Trials removed'})
 title('Time series before and after covariance cleaning')
 zoom on
 
- corrca_plot(preprocessedata);
-%  bar_plot(preprocessedata)
+corrca_plot(preprocessedata);
 
 end
 
