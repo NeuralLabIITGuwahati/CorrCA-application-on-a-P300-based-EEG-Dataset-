@@ -5,7 +5,7 @@ Prerequisite
 1. Statistical and machine learinng toolbox
 2. Signal processing toolbox
 3. All the datasets must be in the same folders where all the .m files and channel location files exist.
-4. Use [1]'s proceesure to extract and filter the single trials of EEG data.
+4. Use [1]'s preprocessing steps to extract and filter the single trials of EEG data.
 5. Downlaod EEG data from http://bci.epfl.ch/p300 and relevant codes. 
 
 The code is illustrated with a P300 data set recorded during an OddBall paradigm [1].
